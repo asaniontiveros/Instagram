@@ -1,29 +1,23 @@
-# Project 2 - *SimpleTweet*
+# Instagram Project 3 - *InstagramClone*
 
-**Name of your app** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
+*InstagramClone* is a photo sharing app similar to Instagram but using Parse as its backend.
 
-Time spent: 6 hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [x] User can **sign in to Twitter** using OAuth login
-- [x]	User can **view tweets from their home timeline**
-  - [x] User is displayed the username, name, and body for each tweet
-  - [x] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-- [x] User can refresh tweets timeline by pulling down to refresh
+- [x] User can sign up to create a new account using Parse authentication.
+- [x] User can log in and log out of his or her account.
+- [x] The current signed in user is persisted across app restarts.
+- [x] User can take a photo, add a caption, and post it to "Instagram".
 
 The following **optional** features are implemented:
 
-- [ ] User can view more tweets as they scroll with infinite pagination
-- [ ] Improve the user interface and theme the app to feel "twitter branded"
-- [ ] Links in tweets are clickable and will launch the web browser
-- [ ] User can tap a tweet to display a "detailed" view of that tweet
-- [ ] User can see embedded image media within the tweet detail view
-- [ ] User can watch embedded video within the tweet
-- [ ] User can open the twitter app offline and see last loaded tweets
-- [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
+- [] User sees app icon in home screen and styled bottom navigation view
+- [] Style the feed to look like the real Instagram feed.
+- [] After the user submits a new post, show an indeterminate progress bar while the post is being uploaded to Parse.
 
 The following **additional** features are implemented:
 
