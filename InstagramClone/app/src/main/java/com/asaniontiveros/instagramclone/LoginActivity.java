@@ -25,7 +25,10 @@ public class LoginActivity extends AppCompatActivity {
         private Button btnLogin;
 
 
-        @Override
+
+
+
+    @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_login);
@@ -37,6 +40,8 @@ public class LoginActivity extends AppCompatActivity {
             etUsername = findViewById(R.id.etUsername);
             etPassword = findViewById(R.id.etPassword);
             btnLogin = findViewById(R.id.btnLogin);
+
+
             btnLogin.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -68,7 +73,9 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-}
+    }
+
+
 
 
 
